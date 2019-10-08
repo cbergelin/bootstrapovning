@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Övning</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -24,7 +25,7 @@
                       <a class="nav-link" href="#tjänster">Tjänster</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Om Oss</a>
+                        <a class="nav-link" href="#Om-Oss">Om Oss</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Kontakt</a>
@@ -49,27 +50,61 @@
 <h1 id="tjänster">Tjänster</h1>
 <section class="section1">
   
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="card1" style="width: 18rem;">
                 <a href="#"><img src="Bilder/item1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">Boende</p>
                 </div></a>
               </div>
-              <div class="card" style="width: 18rem;">
+              <div class="card" id="card2" style="width: 18rem;">
                   <a href="#"><img src="Bilder/item2.jpg" height="190px" class="card-img-top" alt="...">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <p class="card-text">Matupplevelser</p>
                   </div></a>
                 </div>
 
-                <div class="card" style="width: 18rem;">
+                <div class="card" id="card3" style="width: 18rem;">
                     <a href="#"><img src="Bilder/item3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text">Flyg</p>
                     </div></a>
                   </div>
 </section>
 
+<h2>Om Oss</h2>
+<main id="Om-Oss">
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="Bilder/Johanna.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Johanna Häggman</h5>
+          <p class="card-text">Det här är Johanna, hon är chef</p>
+          <p class="card-text"><small class="text-muted"><a href="https://www.facebook.com/johanna.haggman.3" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img src="Bilder/Carl.jpg" class="card-img" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Carl Bergelin</h5>
+          <p class="card-text">Det här är Carl, han gör det Johanna säger</p>
+          <p class="card-text"><small class="text-muted"><a href="https://www.facebook.com/carl.bergelin" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a></small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
